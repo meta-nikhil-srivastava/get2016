@@ -12,10 +12,10 @@ public class CountingSort {
 	 * it initialize counter from zero value and increment it according to
 	 * respective position and element
 	 */
-	public int[] countingSort(int array[], int size) {
+	public int[] countingSort(int array[], int maxElement) {
 
 		int tempArray[] = new int[array.length];
-		int counter[] = new int[size + 1]; // counter array
+		int counter[] = new int[maxElement + 1]; // counter array
 		for (int row = 0; row < counter.length; row++) {
 			counter[row] = 0; // put count = 0 in all index
 		}
