@@ -1,3 +1,7 @@
+
+/**
+ * FileName: RadixSort.java
+ */
 package com.metacube.ds.session8.assignmnt2;
 
 
@@ -14,7 +18,7 @@ public class RadixSort {
  */
 	public int[] radixSort(int array[], int digitCount) {
 
-		int tempArr[] = array;
+		int tempArray[] = array;
 		Queue queue[] = new Queue[10];
 		for (int index = 0; index < 10; index++) {
 			queue[index] = new Queue();
@@ -24,18 +28,18 @@ public class RadixSort {
 		for (int rowIndex = 0; rowIndex < digitCount; rowIndex++) {
 			for (int index = 0; index < array.length; index++) {
 				
-				queue[(tempArr[index] / power(10, rowIndex)) % 10].enqueue(tempArr[index]);  //logic to compute position via modulus operation using array Element & enqueue it
+				queue[(tempArray[index] / power(10, rowIndex)) % 10].enqueue(tempArray[index]);  //logic to compute position via modulus operation using array Element & enqueue it
 			}
 			int count = 0;
 			for (int index = 0; index < 10; index++) {
 				while (queue[index].size() != 0) {
-					tempArr[count++] = queue[index].dequeue(); //dequeue and store it into tempArray
+					tempArray[count++] = queue[index].dequeue(); //dequeue and store it into tempArray
 				}
 			}
 
 		}
 
-		return tempArr;
+		return tempArray;
 
 	}
 
