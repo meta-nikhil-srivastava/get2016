@@ -3,10 +3,10 @@ use lis;
 /*Q1*/
 
 SELECT 
-group_concat(myview.category),
-group_concat(myview.catCount)
+group_concat(countCategory.category),
+group_concat(countCategory.catCount)
 FROM (select category,count(category) as catCount
-FROM members GROUP BY(category)) as myview;
+FROM members GROUP BY(category)) as countCategory;
 
 
 /*Q2*/
