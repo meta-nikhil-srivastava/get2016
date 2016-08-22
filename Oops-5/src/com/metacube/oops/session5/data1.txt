@@ -1,0 +1,4 @@
+nikhil$individual$1234567890$jaipur$simran, pranav, vaibhav
+simran$individual$1234569090$jaipur$nikhil, pranav
+pranav$organization$1234567890$jaipur$simran, nikhil
+vaibhav$individual$123456790$jaipur$nikhil
