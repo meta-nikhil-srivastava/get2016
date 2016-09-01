@@ -1,0 +1,39 @@
+#wrapper {
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+header {
+    padding: 4% 0% 4% 3%;
+    border: 1px solid blue;
+    background-color: #eef6f8;
+    color: #4b85bf;
+    font-size: 25px;
+}
+
+.imgTag {
+    background-color: silver;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 4px;
+    margin: 11px;
+    float: left;
+}
+
+.rightSide {
+    float: left;
+    width: 60%;
+    margin: 1% 0% 0% 4%;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+    padding: 1%;
+}
