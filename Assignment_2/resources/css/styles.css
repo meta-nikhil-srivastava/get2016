@@ -1,0 +1,237 @@
+*{
+	margin : 0;
+	font-family : 'Open Sans', sans-serif;
+}
+
+.clear{
+	
+	clear : both;
+}
+
+.left{
+	
+	float : left;
+}
+
+.right{
+	
+	float : right;
+}
+
+body{
+	
+	line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+ul{
+	
+	list-style-type : none;
+	margin : 0;
+	padding : 0;
+	overflow : hidden;
+	background-color : #21394D;
+}
+
+.listElements{
+	
+	float : right;
+}
+
+li a {
+	
+	display: block;
+    color: #327AC3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+	
+	color: white;
+}
+
+#siteName{
+	
+	float : left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+	
+}
+
+#outer{
+	
+	background-color : #327AC3;
+	padding-top : 10%;
+	padding-bottom : 10%;
+}
+
+#innerText{
+	
+	text-align : center;
+	border-color : white;
+	border-style : solid;
+	border-width : 5%;
+	width : 30%;
+	margin-left: 34%;
+	padding-top : 3%;
+	padding-bottom : 3%;
+	padding-left : 2.5%;
+	padding-right : 2.5%;
+	border-radius : 5px;
+	font-size : 240%;
+	color: white;
+}
+
+#secondaryText{
+	
+	margin-top : 2%;
+	text-align : center;
+	font-size : 120%;
+	color : white;
+}
+
+#getStartedButton{
+	
+	background-color : white;
+	padding-left : 3%;
+	padding-right : 3%;
+	padding-top : 0.7%;
+	padding-bottom : 0.7%;
+	margin-left : 45%;
+	margin-top : 1.5%;
+	border-color : white;
+	border-radius : 10px;
+	border-style : solid;
+	color : #327AC3;
+}
+
+
+#middleText{
+	
+	font-size : 150%;
+	margin-top : 3%;
+	text-align : center;
+}
+
+#middleParent{
+	
+	margin-left : 3%;
+	width : 95%;
+	margin-top : 3%;
+}
+
+.box{
+	
+	overflow: auto;
+	background: #2d3e50;
+    color: #aaa;
+	border : none;
+	margin-top : 13%;
+	width : 100%;	
+}
+
+.image{
+	
+	padding-top : 2%;
+	max-width : 100%;
+	width : 25%; 
+	margin-left : 8%;
+	float : left;
+	padding-bottom : 3%;
+}
+
+.imageContent{
+	
+	padding-left:5%;
+	padding-top : 3%;
+	text-align : left;
+	
+}
+
+.formblock{
+	
+	margin-top : 2%;
+	width : 100%;
+}
+
+form{
+	margin-left : 1%;
+	float : left;
+	width : 40%;
+}
+
+form fieldset{
+	
+	border : none;
+	width : 60%;
+	
+}
+
+form fieldset label {
+	
+    margin: 1em 0 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+form fieldset input{
+	
+	border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+	margin-left:1%;
+	margin-top : 1.5%;
+}
+
+form fieldset button{
+	
+	background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+.contactMore{
+			
+	margin-top : 1%;
+	margin-right : 10%;
+}
+
+.contactMore h4{
+	
+	padding-top : 3%;
+}
+
+
+.block{
+	
+	float : left;
+	width : 25%;
+}
+
+.block .content{
+	
+	color : #1f8dd6;
+	padding-bottom : 6%;
+	padding-top : 12%;
+}
+
+.block .content  i{
+	
+	margin-right : 1%;
+}
+
+.footer{
+    background: #111;
+	text-align:center;
+	padding-bottom: 1%;
+	padding-top : 1%;
+	margin-top : 4%;
+}
