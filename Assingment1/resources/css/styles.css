@@ -108,10 +108,23 @@ border-radius: 0px 4px 4px 0px;
 	height:25px;
     padding-top: 17px;
 }
+input:focus{
+outline-color: #cccccc;
+}
 
+textarea:focus{
+outline-color: #cccccc;
+}
+
+input:focus:required:invalid {border: 1px solid red;}
+
+textarea:focus:required:invalid {border: 1px solid red;}
+
+/*
 input:invalid, textarea:invalid{
     border: solid 2px red;
 }
+*/
 
 .img-tag{
     margin:180px 0px 0px 650px; 
