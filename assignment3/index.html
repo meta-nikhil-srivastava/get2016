@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Drag and Drop</title>
+		<script src="resources/js/drag_and_drop.js"></script>
+		<link rel="stylesheet" href="resources/css/styles.css">
+	</head>
+	<body>
+		<p><h2>Drag the image from one block to another.</h2></p>
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" >
+			<img id="drag1" src="resources/images/bg.png" draggable="true" ondragstart="drag(event)" width= "250px" height="250px" >
+		</div>
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" ></div>
+	</body>
+</html>
