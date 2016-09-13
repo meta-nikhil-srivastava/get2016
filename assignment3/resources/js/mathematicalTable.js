@@ -1,26 +1,25 @@
 function mathematicalTable() {
 	
-	var a;
+	var number;
 	
 	do {
-		a = prompt("Enter the number to find table of (Integers only):");
+		number = prompt("Enter the number to find table of (Integers only):");
 		
-	}while(isNaN(a) || a==='')
+	}while(isNaN(number) || number==='')
 	
-    if(a===null){
+    if(number===null){
         alert("Operation Terminated !!!")
     }    
     else{
         
-    
-	a = parseFloat(a);
+	number = parseFloat(number);
 	var statement = document.getElementById("statement");
-	statement.innerHTML = "<h3>Table of "+a+" is :</h3><br />";
+	statement.innerHTML = "<h3>Table of "+number+" is :</h3><br />";
 	
 	var str ="";
 	for(var index = 1 ; index <= 10 ; index++) {
 		
-		str = str+""+a+" x "+index+" = "+(a*index).toFixed(2)+"<br />";
+		str = str+""+number+" x "+index+" = "+(number*index).toFixed(0)+"<br />";
 	}
 	
 	var table = document.getElementById("table");
