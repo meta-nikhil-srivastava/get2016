@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dropdown and Radio combinations</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+		<script src = "resources/js/dropdown.js"></script>
+	</head>
+	<body>
+        
+        <h2>IPL 2k16 Fan Support</h2>
+        <b>Select Your City:</b> 
+		<select>
+			<option>Kolkata</option>
+			<option>Chennai</option>
+			<option>Pune</option>
+			<option>Mumbai</option>
+		</select><br/><br/>
+		
+        <b>Select you Team :</b>  
+		<select>
+			<option>Kolkata Knight Riders</option>
+			<option>Chennai Super Kings</option>
+			<option>Pune Warriors</option>
+			<option>Mumbai Indians</option>
+		</select><br/><br/>
+		
+        <b>Choose : </b><br /><br />
+        <label><input type ="radio" value="state" name="group"/><b>City</b><br /></label>
+        <label><input type="radio" value="Country" name="group"/><b>Team</b><br/><br/></label>
+		<button onclick="dropdownCombinations()" id="button">Click to the output according to option</button>
+		<p id = "msg"></p>
+	</body>
+</html>
