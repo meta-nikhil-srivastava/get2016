@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+}
+header{
+    font-weight: bolder;
+    font-size: 23px;
+    font-family: courier new;
+    padding: 4% 0% 2% 4%;
+}
+
+section {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#form-table{
+    display: table;
+    
+}
+
+.table-row{
+    display: table-row;
+}
+
+.table-cell1,.table-cell2{
+    display: table-cell;
+    vertical-align:middle;
+    
+}
+
+.table-cell1{
+    text-align: right;
+    font-weight: bold;
+    font-size:15px;
+    
+}
+.table-cell2{
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+button{
+  width:30%;
+	height:30px;
+	color:white;
+	background-color:coral;
+	font-size:13px;
+	font-family:Corier new,sarif;
+	border:1px outset coral; 
+    border-radius:5px;
+}
+
+
+
+.input-icon {
+padding: 6px 12px;
+font-size: 15px;
+width:15px;
+font-weight: 400;
+line-height: 1;
+color: #555;
+text-align: center;
+background-color: #eee;
+border: 1px solid #ccc;
+border-radius: 4px 0px 0px 4px;
+float: left;
+}
+
+input[type="text"], input[type="email"], input[type="number"]{
+height: 27px;
+width:75%;
+float: left;
+padding-left: 5px;
+border: solid 1px #ccc;
+border-radius: 0px 4px 4px 0px;
+}
+
+
+select{
+height: 29px;
+width:75%;
+float: left;
+padding-left: 5px;
+color: #555;
+border: solid 1px #ccc;
+border-radius: 0px 4px 4px 0px;
+}
+
+textarea{
+height: 48px;
+width:75%;
+float: left;
+padding-left: 5px;
+color: #555;
+border: solid 1px #ccc;
+border-radius: 0px 4px 4px 0px;
+}
+
+.input-icon#pencil{
+	height:25px;
+    padding-top: 17px;
+}
+input:focus{
+outline-color: #cccccc;
+}
+
+textarea:focus{
+outline-color: #cccccc;
+}
+
+input:focus:required:invalid {border: 1px solid red;}
+
+textarea:focus:required:invalid {border: 1px solid red;}
+
+/*
+input:invalid, textarea:invalid{
+    border: solid 2px red;
+}
+*/
+
+.img-tag{
+    margin:180px 0px 0px 650px; 
+}
+
+a:hover{
+    cursor: pointer;
+    color:blue;
+}
+
+
+#help{ 
+    width:63%;
+}

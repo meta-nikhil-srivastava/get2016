@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+
+#align-contents{
+    
+    margin-top:20%;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 50px;
+    outline: none;
+  
+}
