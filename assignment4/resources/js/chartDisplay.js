@@ -1,16 +1,16 @@
 function chartDisplay() {
 	
 	var resultArea = document.getElementById("resultArea");
-	var a;
+	var totalElements;
 	var arr = new Array();
 	
 	do {
-		a = prompt("Enter the number of elements of the array. (Integers only):");
+		totalElements = prompt("Enter the number of elements of the array. (Integers only):");
 		
-	}while(isNaN(a)|| a==='')
+	}while(isNaN(totalElements)|| totalElements==='')
 		
-	a = parseInt(a);
-	for(var index = 0 ; index < a ; index++) {
+	totalElements = parseInt(totalElements);
+	for(var index = 0 ; index < totalElements ; index++) {
 		
 		var temp;
 		do {
