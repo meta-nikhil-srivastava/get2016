@@ -12,14 +12,14 @@ function mathematicalTable() {
     }    
     else{
         
-	number = parseFloat(number);
+	number = parseInt(number);
 	var statement = document.getElementById("statement");
 	statement.innerHTML = "<h3>Table of "+number+" is :</h3><br />";
 	
 	var str ="";
 	for(var index = 1 ; index <= 10 ; index++) {
 		
-		str = str+""+number+" x "+index+" = "+(number*index).toFixed(0)+"<br />";
+		str = str+""+number+" x "+index+" = "+(number*index)+"<br />";
 	}
 	
 	var table = document.getElementById("table");
