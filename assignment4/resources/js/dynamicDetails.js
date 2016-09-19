@@ -1,7 +1,7 @@
 $(document).ready(keyPress);
 
 function keyPress() {
-    $(".input#name").keyup(changeColorForNameField);
+    $(".input#name").keyup(validateName);
     $(".input#age").keyup(validateAge);
     $(".input#address").keyup(changeColorForAddressField);
 }
@@ -51,6 +51,7 @@ function changeColorForAddressField() {
         $(".result #updatedAddress").html("");
     }
 }
+
 function validateAge() {
     var value = $(".input#age").val();
     if (value >= 0 && value < 150) {
@@ -61,4 +62,16 @@ function validateAge() {
         $(".input#age").val("");
     }
     changeColorForAgeField();
+}
+
+function validateName() {
+    var value = $(".input#name").val();
+     if (value == null || value == "" || $.isNumeric(value)){
+         $(".input#name").css("borderColor", "red");
+        $(".input#name").val("");
+    }
+    else {
+        $(".input#name").css("borderColor", "grey");
+    }
+    changeColorForNameField();
 }
