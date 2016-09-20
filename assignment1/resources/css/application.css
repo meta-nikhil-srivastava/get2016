@@ -1,0 +1,89 @@
+.jumbotron{
+	padding-bottom: 0;
+	border-radius: 0;
+	background-color: #c36464;
+}
+
+.navbar{
+    border-radius: 0px;
+    padding: 0px;
+	border: none;
+}
+
+.btn-circle{
+	border-color: #fff;
+  	border-radius: 50% !important;
+  	outline: none;
+  	height: 50px;
+    width: 50px;
+}
+
+h2{
+	display: inline-block;
+	color: white;
+	margin-top: 0;
+    margin-bottom: 3%;
+}
+.heading{
+	color: #f06c80;
+}
+
+.heading hr{
+	border-top: 1px solid #f06c80;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    color: #fff;
+    background-color: #c36464;
+    margin: 0px;
+}
+
+.textFont{
+	font-size:20px;
+}
+
+.text-white{
+	color: white;
+}
+
+.box{
+	padding-top: 15%;
+	padding-bottom: 15%;
+	margin-top: 2%;
+}
+
+.panel-body *,.panel-footer *{
+	display: inline;
+	margin-right: 2%;
+	border-radius: 0px;
+	padding: 2px;
+}
+
+.panel-body hr{
+	display: block;
+	border-top: 1px solid #ddd;
+}
+
+.left{
+	margin-top: 6%;
+}
+
+.panel{
+	border-radius: 0px;
+}
+
+.right{
+	margin-top: 6%;
+}
+
+.right .panel-body input, .right .panel-body textarea{
+	width: 100%;
+	border-radius: 5px ;
+	margin: 2% 0;
+	border: 1px solid #ccc;
+}
+
+.right button{
+	padding: 6px;
+}
+
